@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/fondobrasil3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100%;
+    
+
+    
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+.contenedor{
+    width: 50%;
+    max-width: 360px;
+    color: rgb(89, 87, 230);
+    padding: 20px 30px ;
+    margin: auto;
+    
+    
+    
+    
+}
+
+.contenedor h1{
+    color: yellow;
+}
+
+.contenedor img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+   
+    
+    
+    
+}
+
+
+.contenedor h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    
+}
+
+.contenedor label {
+    font-weight: bold;
+    display: block;
+}
+
+.contenedor input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor input[type="text"], .contenedor input[type="email"], .contenedor input[type="cuenta"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    
+    
+
+
+
+}
+
+.contenedor input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 1.1em;
+    background-color: rgb(233, 247, 37);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#pais{
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+.contenedor input[type="button"]:hover{
+
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.contenedor a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 1em;
+    line-height: 20px;
+}
+
+form{
+    background-color: rgb(75, 231, 55);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    padding: 15px;
+    max-height: 440px;
+    
+}
+
+.contenedor #mensaje{
+    border: none;
+    font-size: .6em;
+    font-weight: lighter;
+}
+
+.contenedor .blanco {
+    color: white;
+}
+
+.contenedor .rojo {
+    color: red;
+}
+
+.contenedor .verde {
+    color: green;
+    font-size: 0.8em !important;
+}
+
+h2{
+    font-size: 3em;
+    color: rgb(241, 241, 34);
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+h3{
+    font-size: 2em;
+    color: rgb(241, 241, 34);
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+
+h4{
+    font-size: 1.5em;
+    color: rgb(247, 247, 6);
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+
+p{
+    font-size: 1.2em;
+    color: rgb(4, 94, 19);
+    margin-top: 10px;
+    text-align: justify;
+
+}
+
+#portu{
+    width: 50%;
+    max-width: 700px;
+    margin: 10px auto auto 10px;
+    
+}
+
+p{
+    max-width: 350px;
+    margin: auto;
+}
+
+@media(max-width: 630px){
+    /*main{
+        display: block;
+        
+
+    }
+ */
+ #portu{
+    width:100%;
+    margin: 10px auto auto 10px;
+ }   
+
+ .contenedor{
+    width:100%;
+    margin: auto;
+ }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div id="portu">
+            <h2>Cursos de Portugués Online</h2>
+            <h3>VOCÊ QUER FALAR PORTUGUÊS?</h3>
+            <h4>Aprendé el idioma portugués en forma rápida y efectiva</h4><br>
+            <p>Nuestros cursos online de Portugués para extranjeros te permiten implementar el idioma en tu uso
+                cotidiano, posibilitando la habilidad oral y escrita, el estudio de la gramática y la pronunciación.
+                Ideal para los que comienzan, como para quienes ya tienen un conocimiento previo y desean profundizarlo.
+            </p>
+        </div>
+        <div class="contenedor">
+            <img src="images/portugues.png">
+            <h1>Suscribite y ganá una clase gratis</h1>
+            <form action="" method="">
+                <label for="username">Nombre</label>
+                <input type="text" id="username" placeholder="Enter your name">
+                <label for="password">E-mail</label>
+                <input type="email" id="password" placeholder="Enter your e-mail">
+                <label for="pais">¿Dónde vivís?</label>
+                <input list="paises" id="pais" placeholder="Elija el país.." onkeyup="seleccionDatalist()"
+                    autocomplete="off">
+                <datalist id="paises">
+                    <option value="Argentina"></option>
+                    <option value="Uruguay"></option>
+                    <option value="Chile"></option>
+                    <option value="Perú"></option>
+                    <option value="Colombia"></option>
+                    <option value="Venezuela"></option>
+                    <option value="Paraguay"></option>
+
+                </datalist>
+                <label for="password2">30+12=</label>
+                <input type="text" id="cuenta" placeholder="Resultado">
+                <input type="button" value="Suscribirme" id="login_btn" onclick="validacion(); suscribirse();">
+
+                <a href="#">Quiero suscribirme al newsletter</a>
+                <a href="#">Terminos y condiciones</a>
+                <input type="text" id="mensaje">
+            </form>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
